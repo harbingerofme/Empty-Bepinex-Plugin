@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+    <Metadata>
+        <Identity Id="Empty_RoR2_Bepinex_Plugin.1007dac4-5583-4bab-8eff-cfbf8c1ca15b" Version="1.0" Language="en-US" Publisher="Guido-HarbingerOfMe" />
+        <DisplayName>Empty Risk of Rain 2 Bepinex Plugin</DisplayName>
+        <Description xml:space="preserve">Empty Bepinex Plugin, catered to Risk of Rain 2.</Description>
+        <License>LICENSE.txt</License>
+        <Tags>BepInEx ror2 Unity</Tags>
+        <Preview>true</Preview>
+    </Metadata>
+    <Installation>
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[16.0,)" />
+    </Installation>
+    <Dependencies>
+    </Dependencies>
+    <Assets>
+        <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" TargetVersion="[16.0,)" d:TargetPath="ProjectTemplates\Empty RoR2 Plugin.zip" />
+    </Assets>
+    <Prerequisites>
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[16.1.28811.260,)" DisplayName="Visual Studio core editor" />
+    </Prerequisites>
+</PackageManifest>
